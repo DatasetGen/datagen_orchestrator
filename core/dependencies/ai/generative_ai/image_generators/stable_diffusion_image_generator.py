@@ -15,6 +15,7 @@ class StableDiffusionImageGenerator(ImageGenerator):
         ULTRA = 'ultra'
 
     prompt : str
+    #image: Optional[Image.Image] = None
     api_key: str
     negative_prompt : Optional[str] = ""
     sd_model : Optional[Models] = Models.SD3

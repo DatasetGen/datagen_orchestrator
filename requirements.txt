@@ -1,0 +1,11 @@
+fastapi
+fastapi[standard]
+uvicorn
+python-dotenv
+opencv-python
+numpy
+pillow
+autodistill
+autodistill-grounded-sam
+scikit-learn
+roboflow
