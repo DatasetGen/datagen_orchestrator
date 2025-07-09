@@ -73,7 +73,7 @@ class DatagenClient:
         Upload a batch of annotations for an image.
         """
         url = f"{self.base_url}/api/v1/datasets/{dataset_id}/images/{image_id}/annotations/batch/"
-        annotations_payload = [annotation.dict() for annotation in annotations]
+        annotations_payload = [{**annotation.dict(), "is_synthetic": True} for annotation in annotations]
         response = requests.post(url, json=annotations_payload, headers=self.headers)
         response.raise_for_status()
         return response.json()
