@@ -1,5 +1,8 @@
 # Datagen Orchestrator
 
+![CLI](https://github.com/user-attachments/assets/3cf29f55-6962-4726-8bf0-31a70f9444ff)
+
+
 **Datagen Orchestrator** es una colección de utilidades y pipelines para generar conjuntos de datos sintéticos utilizando varios servicios de inteligencia artificial. El proyecto incluye una interfaz de línea de comandos (CLI) que te guía paso a paso para generar imágenes, anotaciones y subir los resultados a un dataset en Datagen.
 
 ## Instalación
